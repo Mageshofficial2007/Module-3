@@ -8,10 +8,18 @@ To write a Python program that calculates the **sum of all elements** in a list.
 2. Use Python’s built-in `sum()` function to calculate the total.
 3. Print the result.
 
-## 🧾 Program
+## 🧾 Program:
+```python
+numbers = eval(input())
+total = 0
+for num in numbers:
+    if num % 10 == 2:
+        total += num
+print("Sum=", total)
+```
+## Output:
 
-Add code here
+![Screenshot 2025-05-22 081635](https://github.com/user-attachments/assets/0c7157ef-cc7e-4e10-a075-9df69188469b)
 
-## Output
-
-## Result
+## Result:
+Thus, the python program was executed successfully.
